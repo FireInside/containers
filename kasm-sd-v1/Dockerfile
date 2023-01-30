@@ -1,4 +1,4 @@
-FROM runpod/stable-diffusion-models:1.5 as build
+FROM runpod/stable-diffusion:web-automatic-1.5.15 as build
 
 WORKDIR /
 RUN rm -rf /stable-diffusion
